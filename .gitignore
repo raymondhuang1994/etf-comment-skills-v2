@@ -1,0 +1,26 @@
+# Private material belongs outside the public source tree.
+private/
+local/
+inputs/
+outputs/
+.env
+.env.*
+!.env.example
+*.xlsx
+*.xls
+*.csv
+*.tsv
+*.docx
+*.jpg
+*.jpeg
+*.png
+*.pdf
+*.zip
+*.ifpkg
+*.skill
+*.log
+.DS_Store
+.venv/
+__pycache__/
+*.py[cod]
+dist/
