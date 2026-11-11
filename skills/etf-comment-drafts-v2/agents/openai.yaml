@@ -1,4 +1,4 @@
 interface:
   display_name: "ETF 评论草稿 v2"
-  short_description: "参考私有案例与写法对照，先选关注点再筛选评论，默认六类各四条"
-  default_prompt: "用 $etf-comment-drafts-v2 根据本轮产品资料和可用的私有风格参考，生成六类各四条的自然评论草稿。"
+  short_description: "结合合格案例与讨论前文，保护自家产品立场，设计自然短评及蓝链配图"
+  default_prompt: "用 $etf-comment-drafts-v2 根据本轮产品角色、私有合格案例和可用讨论前文生成自然评论草稿；需要时同时建议讨论区、产品引入和蓝链配图，未指定的纯文案按六类各四条。"

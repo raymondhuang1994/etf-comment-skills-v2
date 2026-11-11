@@ -10,7 +10,7 @@ import yaml
 ROOT = Path(__file__).resolve().parents[1]
 SKILLS = ("etf-comment-drafts-v2",)
 BLOCKED_DIRS = {"private", "local", "inputs", "outputs", ".venv", "__pycache__"}
-BLOCKED_SUFFIXES = {".xlsx", ".xls", ".csv", ".tsv", ".docx", ".jpg", ".jpeg", ".png", ".pdf", ".log", ".pyc"}
+BLOCKED_SUFFIXES = {".xlsx", ".xls", ".xlsm", ".xlsb", ".csv", ".tsv", ".jsonl", ".docx", ".jpg", ".jpeg", ".png", ".webp", ".pdf", ".log", ".pyc"}
 SECRET_PATTERNS = (
     r"gh[pousr]_[A-Za-z0-9]{30,}",
     r"github_pat_[A-Za-z0-9_]{40,}",

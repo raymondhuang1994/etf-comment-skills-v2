@@ -8,12 +8,16 @@ outputs/
 !.env.example
 *.xlsx
 *.xls
+*.xlsm
+*.xlsb
 *.csv
 *.tsv
+*.jsonl
 *.docx
 *.jpg
 *.jpeg
 *.png
+*.webp
 *.pdf
 *.zip
 *.ifpkg
